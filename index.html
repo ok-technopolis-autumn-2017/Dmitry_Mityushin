@@ -4,99 +4,99 @@
     <meta charset="UTF-8">
     <title>todos</title>
     <!--
-    <link rel="stylesheet" href="/styles/default.css">
+    <link rel="stylesheet" href="./styles/default.css"/>
     -->
 </head>
 <body>
-<div class="main-wrapper">
-    <div class="content">
-        <div class="todos">
-            <div class="todos-header">
-                <h1 class="todos-title">todos</h1>
-            </div>
-            <div class="todos-main">
+<div class="todos">
+    <div class="todos-header">
+        <h1 class="todos-title">todos</h1>
+    </div>
+    <div class="todos-main">
 
-                <div class="todos-add">
-                    <button class="todo-add_select-all"
-                            aria-label="Отметить все как выполненные">
-                    </button>
-                    <input class="todo-add_input" placeholder="Добавить"
-                           aria-label="Поле добавления todo"/>
-                </div>
-
-                <div class="todos-list">
-
-                    <div class="todo-item">
-                        <textarea class="todo-item_text">
-                            HTML
-                        </textarea>
-                        <input type="checkbox" class="todo-item_ready-mark"
-                               aria-label="Пометить как выполненное"/>
-                        <button class="todo-item_remove" aria-label="Удалить todo">X</button>
-                    </div>
-
-                    <div class="todo-item __ready">
-                        <textarea class="todo-item_text">
-                            CSS
-                        </textarea>
-                        <input type="checkbox" checked="checked" class="todo-item_ready-mark"
-                               aria-label="Пометить как невыполненное"/>
-                        <button class="todo-item_remove" aria-label="Удалить todo">X</button>
-                    </div>
-
-                    <div class="todo-item">
-                        <textarea class="todo-item_text">
-                            JS
-                        </textarea>
-                        <input type="checkbox" class="todo-item_ready-mark"
-                               aria-label="Пометить как выполненное"/>
-                        <button class="todo-item_remove" aria-label="Удалить todo">X</button>
-                    </div>
-
-                    <div class="todo-item">
-                        <textarea class="todo-item_text">
-                            JS tools
-                        </textarea>
-                        <input type="checkbox" class="todo-item_ready-mark"
-                               aria-label="Пометить как выполненное"/>
-                        <button class="todo-item_remove" aria-label="Удалить todo">X</button>
-                    </div>
+        <div class="todos-add">
+            <button class="todos-add_select-all"
+                    aria-label="Отметить все как выполненные">
+                <div class="todos-add_select-all_icon">
 
                 </div>
-
-                <div class="todos-actions-bar">
-
-                    <div class="todos-actions-bar_counter"
-                         aria-label="Количество не сделанных todo">
-                        3 item left
-                    </div>
-
-                    <div class="todos-filters">
-                        <button class="todo-filter __active" data-filter="all"
-                                aria-label="Фильтр: Показать все">
-                            All
-                        </button>
-                        <button class="todo-filter" data-filter="ready"
-                                aria-label="Фильтр: Показать невыполненные">
-                            Active
-                        </button>
-                        <button class="todo-filter" data-filter="unready"
-                                aria-label="Фильтр: Показать выполненные">
-                            Completed
-                        </button>
-                    </div>
-
-                    <button class="todo-actions-bar_clear-completed"
-                            aria-label="Удалить завершенные">
-                        Clear completed
-                    </button>
-
-                </div>
-
+            </button>
+            <div class="todos-add_add-new">
+                <input class="todos-add_add-new_input" placeholder="Добавить"
+                       aria-label="Поле добавления todo"/>
             </div>
         </div>
+
+        <div class="todos-list">
+
+            <div class="todo-item">
+                <textarea class="todo-item_text">
+                    HTML
+                </textarea>
+                <input type="checkbox" class="todo-item_ready-mark"
+                       aria-label="Пометить как выполненное"/>
+                <button class="todo-item_remove" aria-label="Удалить todo">X</button>
+            </div>
+
+            <div class="todo-item __ready">
+                <textarea class="todo-item_text">
+                    CSS
+                </textarea>
+                <input type="checkbox" checked="checked" class="todo-item_ready-mark"
+                       aria-label="Пометить как невыполненное"/>
+                <button class="todo-item_remove" aria-label="Удалить todo">X</button>
+            </div>
+
+            <div class="todo-item">
+                <textarea class="todo-item_text">
+                    JS
+                </textarea>
+                <input type="checkbox" class="todo-item_ready-mark"
+                       aria-label="Пометить как выполненное"/>
+                <button class="todo-item_remove" aria-label="Удалить todo">X</button>
+            </div>
+
+            <div class="todo-item">
+                <textarea class="todo-item_text">
+                    JS tools
+                </textarea>
+                <input type="checkbox" class="todo-item_ready-mark"
+                       aria-label="Пометить как выполненное"/>
+                <button class="todo-item_remove" aria-label="Удалить todo">X</button>
+            </div>
+
+        </div>
+
+        <div class="todos-actions-bar">
+
+            <div class="todos-actions-bar_counter"
+                 aria-label="Количество не сделанных todo">
+                3 item left
+            </div>
+
+            <div class="todos-filters">
+                <button class="todo-filter __active" data-filter="all"
+                        aria-label="Фильтр: Показать все">
+                    All
+                </button>
+                <button class="todo-filter" data-filter="ready"
+                        aria-label="Фильтр: Показать невыполненные">
+                    Active
+                </button>
+                <button class="todo-filter" data-filter="unready"
+                        aria-label="Фильтр: Показать выполненные">
+                    Completed
+                </button>
+            </div>
+
+            <button class="todo-actions-bar_clear-completed"
+                    aria-label="Удалить завершенные">
+                Clear completed
+            </button>
+
+        </div>
+
     </div>
 </div>
-
 </body>
 </html>
